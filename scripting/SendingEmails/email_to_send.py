@@ -3,10 +3,8 @@ from email.message import EmailMessage
 from pathlib import Path
 from string import Template
 import os
-import pdb
 
 
-pdb.set_trace()
 correo = os.environ.get('DB_USER')  # Enviroment variable
 contraseña = os.environ.get('DB_PASSWORD')  # Enviroment variable
 
